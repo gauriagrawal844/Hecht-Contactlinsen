@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -128,11 +129,11 @@
 
     <section class="about-section">
         <div class="about-card container">
-            <div class="about-image">
-                <img src="Images/AboutUs/about-left-img.png" alt="Contact Lens Image">
-            </div>
+            <div class="about-card-content">
+                <div class="about-image">
+                    <img src="Images/AboutUs/about-left-img.png" alt="Contact Lens Image">
+                </div>
 
-            <div class="about-over-section">
                 <div class="about-text-container">
                     <p class="text-overline">ABOUT US</p>
                     <h3 class="text-heading">
@@ -147,65 +148,64 @@
                         technology and years of experience to deliver exceptional quality and comfort.
                     </p>
                 </div>
+            </div>
 
 
-                <div class=" features-card">
-
-
-                    <div class="feature-item">
-                        <div class="feature-icon-wrapper">
-                            <img src="Images/AboutUs/img1.svg" alt="icon">
-                        </div>
-                        <h5 class="feature-title">Customized Solutions</h5>
-                        <p class="feature-description">Tailor-made contact lenses designed to meet the specific needs of
-                            each
-                            patient.</p>
-                        <a href="#" class="learn-more-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
+            <div class=" features-card">
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <img src="Images/AboutUs/img1.svg" alt="icon">
                     </div>
+                    <h5 class="feature-title">Customized Solutions</h5>
+                    <p class="feature-description">Tailor-made contact lenses designed to meet the specific needs of
+                        each
+                        patient.</p>
+                    <a href="#" class="learn-more-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
 
-                    <div class="feature-item">
-                        <div class="feature-icon-wrapper">
-                            <img src="Images/AboutUs/img2.svg" alt="icon">
-                        </div>
-                        <h5 class="feature-title">Quality</h5>
-                        <p class="feature-description">Our commitment to excellence ensures that every pair of contact
-                            lenses
-                            meets the highest standards.</p>
-                        <a href="#" class="learn-more-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <img src="Images/AboutUs/img2.svg" alt="icon">
                     </div>
+                    <h5 class="feature-title">Quality</h5>
+                    <p class="feature-description">Our commitment to excellence ensures that every pair of contact
+                        lenses
+                        meets the highest standards.</p>
+                    <a href="#" class="learn-more-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
 
-                    <div class="feature-item">
-                        <div class="feature-icon-wrapper">
-                            <img src="Images/AboutUs/img3.svg" alt="icon">
-                        </div>
-                        <h5 class="feature-title">Advanced Technology</h5>
-                        <p class="feature-description">Utilization of the latest innovations in contact lens
-                            manufacturing
-                            and
-                            design.</p>
-                        <a href="#" class="learn-more-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <img src="Images/AboutUs/img3.svg" alt="icon">
                     </div>
+                    <h5 class="feature-title">Advanced Technology</h5>
+                    <p class="feature-description">Utilization of the latest innovations in contact lens
+                        manufacturing
+                        and
+                        design.</p>
+                    <a href="#" class="learn-more-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
 
-                    <div class="feature-item">
-                        <div class="feature-icon-wrapper">
-                            <img src="Images/AboutUs/img4.svg" alt="icon">
-                        </div>
-                        <h5 class="feature-title">Customer Support</h5>
-                        <p class="feature-description">Our commitment to excellence ensures that every pair of contact
-                            lenses
-                            meets the highest standards.</p>
-                        <a href="#" class="learn-more-link">
-                            Learn More <i class="fas fa-arrow-right"></i>
-                        </a>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper">
+                        <img src="Images/AboutUs/img4.svg" alt="icon">
                     </div>
+                    <h5 class="feature-title">Customer Support</h5>
+                    <p class="feature-description">Our commitment to excellence ensures that every pair of contact
+                        lenses
+                        meets the highest standards.</p>
+                    <a href="#" class="learn-more-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
+
         </div>
 
     </section>
@@ -361,12 +361,12 @@
                 <div class="accuracy-content-text">
                     <p class="accuracy-overline">Accuracy</p>
                     <h3>Discover the Impressive Results of Our Customized
-                    
-                    
+
+
                         <span class="highlight-badge">
                             <h5>Contact Lenses</h5>
                         </span>
-                    
+
                     </h3>
 
                 </div>
@@ -459,316 +459,385 @@
                 </div>
 
             </div>
-          </div>  
+        </div>
     </section>
 
+    <!-- Feedback Section -->
+
+
+    <section class="feedback-section">
+        <div class="feedback-container">
+
+            <div class="feedback-main-content">
+                <div class="feedback-image-column">
+                    <img class="feedback-main-image" src="Images/Feedback/eye.png"
+                        alt="Close-up of an eye with a contact lens being inserted by a hand." loading="lazy">
+                </div>
+                <div class="feedback-header">
+                    <h1>Over 2,500 Satisfied Customers Trust Us</h1>
+                    <p>Join the thousands of satisfied opticians who rely on Hecht Contactlinsen for superior quality
+                        and
+                        unmatched comfort.</p>
+                </div>
+            </div>
+            <div class="feedback-testimonials-column">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide 1 (Library Class) -->
+                        <div class="swiper-slide">
+                            <div class="feedback-card">
+                                <div>
+                                    <div class="feedback-stars">★★★★★</div>
+                                    <p class="feedback-review-text">Hecht Contactlinsen's custom lenses have
+                                        transformed my practice. Our patients love the comfort and clarity they
+                                        provide!</p>
+                                </div>
+                                <div class="feedback-user-info">
+                                    <img class="feedback-user-avatar" src="Images/Feedback/client1.svg"
+                                        alt="Avatar for Sarah L.">
+                                    <div class="feedback-user-details">
+                                        <strong>JOHN M.</strong>
+                                        <span>Optometrist</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 (Library Class) -->
+                        <div class="swiper-slide">
+                            <div class="feedback-card">
+                                <div>
+                                    <div class="feedback-stars">★★★★★</div>
+                                    <p class="feedback-review-text">The precision and quality of Hecht
+                                        Contactlinsen
+                                        lenses are unmatched. We've seen a significant increase in patient
+                                        satisfaction.</p>
+                                </div>
+                                <div class="feedback-user-info">
+                                    <img class="feedback-user-avatar" src="Images/Feedback/client2.svg"
+                                        alt="Avatar for Sarah L.">
+                                    <div class="feedback-user-details">
+                                        <strong>SARAH L.</strong>
+                                        <span>Eye Care Professional</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 (Library Class) -->
+                        <div class="swiper-slide">
+                            <div class="feedback-card">
+                                <div>
+                                    <div class="feedback-stars">★★★★★</div>
+                                    <p class="feedback-review-text">Partnering with Hecht Contactlinsen was the
+                                        best
+                                        decision. Their innovative solutions have made a remarkable difference
+                                        for
+                                        our clients.</p>
+                                </div>
+                                <div class="feedback-user-info">
+                                    <img class="feedback-user-avatar" src="Images/Feedback/client3.svg"
+                                        alt="Avatar for Dr. Markus K.">
+                                    <div class="feedback-user-details">
+                                        <strong>DR. MARKUS K.</strong>
+                                        <span>Optician</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4 (Library Class) -->
+                        <div class="swiper-slide">
+                            <div class="feedback-card">
+                                <div>
+                                    <div class="feedback-stars">★★★★★</div>
+                                    <p class="feedback-review-text">Exceptional service and product quality.
+                                        Highly
+                                        recommend their personalized contact lens solutions to any practice
+                                        looking
+                                        to excel.</p>
+                                </div>
+                                <div class="feedback-user-info">
+                                    <img class="feedback-user-avatar" src="Images/Feedback/client2.svg"
+                                        alt="Avatar for Anna B.">
+                                    <div class="feedback-user-details">
+                                        <strong>ANNA B.</strong>
+                                        <span>Optometrist</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- latest articles section -->
+    <section class="latest-articles-section">
+        <div class="latest-articles-container container">
+            <div class="latest-articles-content">
+                <h2>Explore our latest articles and updates to stay ahead with <span>Hecht Contactlinsen GmbH</span>
+                </h2>
+            </div>
+            <div class="latest-articles-grid">
+                <!-- grid 1 -->
+                <div class="latest-article-item">
+                    <div class="latest-article-image">
+                        <img src="Images/Latest/innovation.png" alt="innovation">
+                    </div>
+                    <div class="latest-item-content">
+                        <div class="latest-article-overline">
+                            <h5>Innovation</h5>
+                        </div>
+                        <div class="latest-article-title">
+                            <h4>The Future of Contact Lenses: Innovations to Watch</h4>
+                        </div>
+                        <div class="latest-arrow">
+                            <img src="Images/Latest/vector.svg">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- grid 2 -->
+                <div class="latest-article-item">
+                    <div class="latest-article-image">
+                        <img src="Images/Latest/prevention.png" alt="prevention">
+                    </div>
+                    <div class="latest-item-content">
+                        <div class="latest-article-overline">
+                            <h5>Prevention</h5>
+                        </div>
+                        <div class="latest-article-title">
+                            <h4>Effective Myopia Management in Children</h4>
+                        </div>
+                        <div class="latest-arrow">
+                            <img src="Images/Latest/vector.svg">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- grid 3 -->
+                <div class="latest-article-item">
+                    <div class="latest-article-image">
+                        <img src="Images/Latest/comfort.png" alt="comfort">
+                    </div>
+                    <div class="latest-item-content">
+                        <div class="latest-article-overline">
+                            <h5>Comfort</h5>
+                        </div>
+                        <div class="latest-article-title">
+                            <h4>Maximizing Comfort: Tips for Contact Lens Wearers</h4>
+                        </div>
+                        <div class="latest-arrow">
+                            <img src="Images/Latest/vector.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ  Section-->
+    <section class="faq-section">
+        <div class="faq-container">
+            <div class="faq-content-side">
+                <div class="faq-header">
+                    <h2>FAQs</h2>
+                    <p>Answers to Your Most Common Questions about Hecht Contact Lenses, Products, and Services</p>
+                </div>
+
+                <div class="accordion-list">
+
+                    <div class="accordion-item active">
+                        <div class="accordion-question">
+                            <span>What types of contact lenses do you offer?</span>
+                            <span class="accordion-icon">
+                                <img src="Images/FAQ/up.svg" alt="arrow up">
+                            </span>
+
+                        </div>
+                        <div class="accordion-answer">
+                            <p>We offer a wide range of customized contact lenses, including spherical lenses, toric
+                                lenses, multifocal lenses, and special lenses tailored to individual needs.</p>
+                        </div>
+                    </div>
+
+                    <!-- ACCORDION ITEM 2 -->
+                    <div class="accordion-item">
+                        <div class="accordion-question">
+                            <span>How can I order customized contact lenses for my patients?</span>
+                            <span class="accordion-icon">
+                                <img src="Images/FAQ/up.svg" alt="arrow up">
+                            </span>
+                        </div>
+                        <div class="accordion-answer">
+                            <p>Orders can be placed directly through our secure online portal, or by contacting our
+                                dedicated support team via phone or email. We require patient prescription details and
+                                specific fitting parameters.</p>
+                        </div>
+                    </div>
+
+                    <!-- ACCORDION ITEM 3 -->
+                    <div class="accordion-item">
+                        <div class="accordion-question">
+                            <span>Do you provide resources and support for opticians?</span>
+                            <span class="accordion-icon">
+                                <img src="Images/FAQ/up.svg" alt="arrow up">
+                            </span>
+                        </div>
+                        <div class="accordion-answer">
+                            <p>Yes, we offer comprehensive fitting guides, educational webinars, and one-on-one
+                                consultation support with our clinical experts to ensure successful fittings and patient
+                                satisfaction.</p>
+                        </div>
+                    </div>
+
+                    <!-- ACCORDION ITEM 4 -->
+                    <div class="accordion-item">
+                        <div class="accordion-question">
+                            <span>How do I care for my contact lenses?</span>
+                            <span class="accordion-icon">
+                                <img src="Images/FAQ/up.svg" alt="arrow up">
+                            </span>
+                        </div>
+                        <div class="accordion-answer">
+                            <p>Proper care involves daily cleaning and disinfection using recommended solutions,
+                                following the replacement schedule provided, and never using tap water. Always wash your
+                                hands before handling lenses.</p>
+                        </div>
+                    </div>
+
+                    <!-- ACCORDION ITEM 5 -->
+                    <div class="accordion-item">
+                        <div class="accordion-question">
+                            <span>Can I wear contact lenses if I have astigmatism?</span>
+                            <span class="accordion-icon">
+                                <img src="Images/FAQ/up.svg" alt="arrow up">
+                            </span>
+                        </div>
+                        <div class="accordion-answer">
+                            <p>Absolutely. We offer customized toric contact lenses specifically designed to correct
+                                astigmatism, providing clear and stable vision for patients with this condition.</p>
+                        </div>
+                    </div>
+
+                    <!-- ACCORDION ITEM 6 -->
+                    <div class="accordion-item">
+                        <div class="accordion-question">
+                            <span>Are your lenses suitable for children?</span>
+                            <span class="accordion-icon">&#8964;</span>
+                        </div>
+                        <div class="accordion-answer">
+                            <p>Our lenses are suitable for children under the guidance of an eye care professional,
+                                often used for vision correction or specialized treatments like myopia control.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Request Section -->
+    <section class="request-section">
+        <div class="request-container">
+            <div class="form-wrapper">
+                <h2 class="form-title">
+                    Submit your request
+                </h2>
+                <form class="submit-form">
+                    <div class="input-row">
+                        <input type="text" placeholder="Name" aria-label="Name" required class="input-field" />
+                        <input type="email" placeholder="Email" aria-label="Email" required class="input-field" />
+                        <input type="tel" placeholder="Contact No." aria-label="Contact Number" class="input-field" />
+                    </div>
+
+                    <div class="textarea-container">
+                        <textarea id="message" rows="8" placeholder="Your Message" required class="textarea-field"
+                            aria-label="Your Message"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="request-map-image">
+                <img src="Images/Submit/map.png" alt="Map Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div>
+                <img src="Images/Footer/Logo.svg" alt="Logo">
+            </div>
+            <div class="footer-grid">
+                <div class="footer-col contact-col">
+                    <h4 class="col-title">Contact us</h4>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-envelope"></i> hechtcontactlinsengmbh@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +82 79938653789</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Level 1, 12 Sample St, Sydney NSW 2000</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col quick-links-col">
+                    <h4 class="col-title">Quick links</h4>
+                    <ul class="quick-links-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col services-col">
+                    <h4 class="col-title">Services</h4>
+                    <ul class="services-list">
+                        <li><a href="#">Imprint</a></li>
+                        <li><a href="#">Conditions</a></li>
+                        <li><a href="#">Quality management</a></li>
+                        <li><a href="#">Data protection</a></li>
+                        <li><a href="#">Online support</a></li>
+                        <li><a href="#">File transfer to Hecht</a></li>
+                        <li><a href="#">Pike in Europe</a></li>
+                        <li><a href="#">Jobs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col subscribe-col">
+                    <h4 class="col-title">Subscribe Today!</h4>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Your email address" class="subscribe-input"
+                            aria-label="Your email address for subscription">
+                        <button type="submit" class="subscribe-button">SIGN UP</button>
+                    </form>
+                    <p class="subscribe-text">
+                        Get the latest news on Eye health, wellness, new offers and updates.
+                    </p>
+
+                    <div class="footer-social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Bottom -->
+    <section class="footer-bottom">
+        <p>Copyright © 2023 Hecht Contactlinsen GmbH. All rights reserved</p>
+
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 
 </html>
-
-
-<!-- 
-@media(max-width:1600px) {
-    .position-div-content h3 {
-        font-size: 36px;
-        line-height: 122%;
-    }
-
-    .position-div {
-        max-width: 542px;
-    }
-
-    .position-div-content p {
-        font-size: 16px;
-    }
-
-    .accuracy-content h3 {
-        font-size: 44px;
-    }
-
-    .accuracy-content .accuracy-text p {
-        font-size: 16px;
-        line-height: 137%;
-    }
-
-    .accuracy-content-text {
-        max-width: 537px;
-        gap: 17px;
-    }
-
-    .accuracy-content .accuracy-overline {
-        font-size: 22px;
-    }
-}
-
-@media (max-width:1440px) {
-    .accuracy-section {
-        padding: 0 100px;
-    }
-
-    .position-div-content h3 {
-        font-size: 32px;
-        line-height: 122%;
-    }
-
-    .position-div {
-        max-width: 451px;
-    }
-
-    .position-div-content p {
-        font-size: 14px;
-    }
-
-    .accuracy-content h3 {
-        font-size: 40px;
-    }
-
-    .accuracy-content .accuracy-text p {
-        font-size: 15px;
-    }
-
-    .accuracy-content-text {
-        max-width: 500px;
-        gap: 15px;
-    }
-
-    .accuracy-content .accuracy-overline {
-        font-size: 22px;
-    }
-
-    .accuracy-content .accuracy-text {
-        max-width: 500px;
-    }
-}
-
-@media (max-width:1224px) {
-    .accuracy-section {
-        padding: 0 80px;
-    }
-
-    .accuracy-content h3 {
-        font-size: 36px;
-    }
-
-    .accuracy-content .accuracy-text p {
-        font-size: 14px;
-    }
-
-    .accuracy-content-text {
-        max-width: 500px;
-        gap: 15px;
-    }
-
-    .accuracy-content .accuracy-overline {
-        font-size: 20px;
-    }
-
-    .accuracy-content .accuracy-text {
-        max-width: 450px;
-    }
-
-    .position-div {
-        max-width: 400px;
-    }
-
-    .position-div-content {
-        max-width: 183px;
-        gap: 12px;
-        padding: 19px;
-    }
-
-    .position-div-content h3 {
-        font-size: 27px;
-    }
-
-    .accuracy-container {
-        gap: 45px;
-        padding: 50px 0;
-    }
-}
-
-@media (max-width:1080px) {
-    .accuracy-content .accuracy-text {
-        max-width: 363px;
-    }
-
-    .accuracy-content .accuracy-text p {
-        font-size: 13px;
-    }
-
-    .accuracy-content-text {
-        max-width: 433px;
-        gap: 10px;
-    }
-
-    .accuracy-content .accuracy-overline {
-        font-size: 18px;
-    }
-
-    .accuracy-content h3 {
-        font-size: 31px;
-    }
-
-    .position-div {
-        gap: 15px;
-        max-width: 350px;
-    }
-
-    .position-div-content p {
-        font-size: 12px;
-    }
-}
-
-
-@media (max-width:992px) {
-
-    .accuracy-section {
-        padding: 0 70px;
-    }
-
-    .accuracy-container {
-        gap: 86px;
-        padding: 40px 0;
-    }
-
-    .accuracy-content-text {
-        max-width: 100%;
-    }
-
-    .accuracy-content h3 {
-        font-size: 29px;
-    }
-
-    .accuracy-content .accuracy-text {
-        max-width: 100%;
-    }
-
-    .accuracy-content .accuracy-text p {
-        font-size: 17px;
-    }
-
-
-    .accuracy-content {
-        gap: 25px;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .accuracy-content .accuracy-overline {
-        font-size: 16px;
-    }
-
-    .position-div-content h3 {
-        font-size: 24px;
-    }
-
-    .position-div {
-        gap: 12px;
-        max-width: 340px;
-    }
-}
-
-
-@media (max-width:768px) {
-    .accuracy-section {
-        padding: 0 60px;
-    }
-
-    .position-div-content {
-        max-width: 159px;
-        gap: 10px;
-        padding: 17px;
-    }
-
-    .position-div-content h3 {
-        font-size: 22px;
-    }
-}
-
-@media (max-width:660px) {
-    .accuracy-section {
-        padding: 0px 40px;
-    }
-
-    .accuracy-content h3 {
-        font-size: 25px;
-    }
-
-    .accuracy-content .accuracy-text p {
-        font-size: 12px;
-    }
-
-    .position-div-content h3 {
-        font-size: 19px;
-    }
-
-    .accuracy-container {
-        gap: 61px;
-        padding: 30px 0;
-    }
-
-    .accuracy-content {
-        gap: 17px;
-    }
-
-    .accuracy-content .accuracy-text p {
-        font-size: 15px;
-    }
-}
-
-@media (max-width:500px) {
-    .position-div-content {
-        max-width: 149px;
-        gap: 3px;
-        padding: 5px 10px;
-    }
-
-    .position-div-content p {
-        font-size: 9px;
-    }
-
-    .accuracy-content .accuracy-text p {
-        font-size: 12px;
-    }
-
-
-    .position-div-content h3 {
-        font-size: 16px;
-    }
-
-    .position-div {
-        gap: 12px;
-        max-width: 264px;
-    }
-
-    .accuracy-content h3 {
-        font-size: 21px;
-    }
-
-    .accuracy-content .accuracy-overline {
-        font-size: 14px;
-    }
-
-    .accuracy-content-text {
-        max-width: 433px;
-        gap: 4px;
-    }
-
-
-    .accuracy-container {
-        gap: 40px;
-    }
-
-    .position-div-content h3 {
-        font-size: 14px;
-    }
-}
-
-@media(max-width:450px) {
-    .accuracy-section {
-        padding: 0 30px;
-    }
-
-}
- -->
