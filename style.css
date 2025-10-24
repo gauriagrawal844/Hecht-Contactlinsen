@@ -204,8 +204,8 @@ a {
 
 .social-icons {
     position: absolute;
-    right: 152px;
-    bottom: 35%;
+    right: 150px;
+    bottom: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2043,9 +2043,6 @@ footer {
         font-size: 26px;
     }
 
-    .hero-text-content p {
-        font-size: 12px;
-    }
 
     .hero-container {
         height: 59vh;
@@ -2139,6 +2136,8 @@ footer {
 @media(max-width:768px) {
     .stat-item {
         padding: 0;
+        min-height: 50px;
+        height: 100%;
     }
 
     .stats-container {
@@ -2457,7 +2456,7 @@ footer {
     }
 
     .feature-description {
-        font-size: 11px;
+        font-size: 12px;
         line-height: 110%;
         max-height: 60px;
     }
@@ -2496,7 +2495,7 @@ footer {
     }
 
     .text-body {
-        font-size: 11px;
+        font-size: 12px;
     }
 }
 
@@ -2544,7 +2543,7 @@ footer {
 
 @media(max-width:500px) {
     .text-body {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .feature-item {
@@ -2552,21 +2551,21 @@ footer {
     }
 
     .feature-description {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .learn-more-link {
-        font-size: 12px;
+        font-size: 14px;
         gap: 6px;
     }
 
     .learn-more-link i {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .feature-title {
-        font-size: 12px;
-        line-height: 12px;
+        font-size: 14px;
+        line-height: 14px;
     }
 
     .feature-icon-wrapper img {
@@ -2903,7 +2902,7 @@ footer {
 
 @media (max-width:500px) {
     .customized-content .customized-text p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .customized-title {
@@ -2924,12 +2923,12 @@ footer {
     }
 
     .card-title {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .card-description {
-        padding-top: 6px;
-        font-size: 12px;
+        padding-top: 5px;
+        font-size: 14px;
     }
 
     .card-content {
@@ -3175,7 +3174,7 @@ footer {
 
     .precision-content .precision-text,
     .enhance-content .enhance-text {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .precision-content h3,
@@ -3456,11 +3455,11 @@ footer {
     }
 
     .position-div-content p {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .accuracy-content .accuracy-text p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
 
@@ -3594,7 +3593,7 @@ footer {
     }
 
     .discover-text p {
-        font-size: 10px;
+        font-size: 13px;
     }
 
 }
@@ -4053,7 +4052,7 @@ footer {
     }
 
     .feedback-review-text {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .feedback-user-details span {
@@ -4098,7 +4097,7 @@ footer {
     }
 
     .feedback-header p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .feedback-header h2 {
@@ -4528,8 +4527,8 @@ footer {
     }
 
     .accordion-question {
-        font-size: 11px;
-        line-height: 13px;
+        font-size: 14px;
+        line-height: 17px;
         gap: 8px;
     }
 
@@ -4549,7 +4548,7 @@ footer {
     }
 
     .accordion-answer p {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .faq-content-side,
@@ -4559,7 +4558,7 @@ footer {
     }
 
     .faq-header p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .accordion-item.active .accordion-answer {
@@ -4943,10 +4942,11 @@ footer {
         padding: 47px 20px;
         gap: 48px;
     }
-        .subscribe-form {
+
+    .subscribe-form {
         max-width: none;
         justify-content: space-between;
-        }
+    }
 
     .footer-container img {
         max-width: 228px;
@@ -4964,6 +4964,7 @@ footer {
         max-width: 100px;
         /* align-items: flex-end; */
         align-self: center;
+        margin-top: 15px;
     }
 
     .footer-social-icons a i {
@@ -5197,6 +5198,3 @@ footer {
         box-shadow: 0px 2px 1px 0px #FFFFFF66 inset, 3px 4px 0px 0px #6ABBCE;
     }
 }
-
-
-/* ------------------------------------------------------------------------------------------------------------------ */
