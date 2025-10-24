@@ -154,13 +154,13 @@ a {
 .explore-button {
     display: inline-flex;
     align-items: center;
-    padding: 17px 30px;
+    padding: 17px 22px;
     background-color: #D0E83C;
     color: black;
     font-weight: 500;
     border-radius: 60px;
     font-size: 20px;
-    gap: 24px;
+    gap: 19px;
     transition: all 0.3s ease;
     box-shadow: 0px 4px 4px 0px #FFFFFF66 inset, 3px 6px 0px 0px #6ABBCE;
 }
@@ -232,7 +232,8 @@ body.no-scroll {
     position: fixed;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 100%;
+    bottom:20px;
     width: 85%;
     max-width: 360px;
     background: #ffffff;
@@ -2295,7 +2296,7 @@ footer {
         max-width: 150px;
     }
 
-    .social-icons a img {
+    .social-icons a svg {
         height: 25px;
         width: 25px;
     }
@@ -2336,7 +2337,7 @@ footer {
         gap: 0;
     }
 
-    .navbar-icons a img {
+    .navbar-icons a svg {
         width: 38px;
         height: 38px;
     }
@@ -2390,7 +2391,7 @@ footer {
         scale: 0.5;
     }
 
-    .social-icons a img {
+    .social-icons a svg {
         height: 20px;
         width: 20px;
     }
@@ -2513,7 +2514,7 @@ footer {
         gap: 18px;
     }
 
-    .social-icons a img {
+    .social-icons a svg {
         height: 17px;
         width: 17px;
     }
